@@ -1,13 +1,14 @@
 import { StyleSheet } from 'react-native';
-import RemoteConfig from '../lib/RemoteConfig';
+import RemoteConfig from '../../../src/lib/RemoteConfig';
 // import app from '../../app.json';
-import brandLogo from '../images/aboutLogo.png';
-import brandLogoSmall from '../images/logoSmall.png';
-import logo from '../images/logo.png';
-import HeaderImage from '../images/headerCurves.png';
-import firstSlideImage from '../images/intro/introOne.png';
-import secondSlideImage from '../images/intro/introTwo.png';
-import thirdSlideImage from '../images/intro/introThree.png';
+import brandLogo from '../../../src/images/aboutLogo.png';
+import brandLogoSmall from '../../../src/images/logoSmall.png';
+import logo from '../../../src/images/logo.png';
+import HeaderImage from '../../../src/images/headerCurves.png';
+import firstSlideImage from '../../../src/images/intro/introOne.png';
+import secondSlideImage from '../../../src/images/intro/introTwo.png';
+import thirdSlideImage from '../../../src/images/intro/introThree.png';
+
 
 let devMode = process.env.NODE_ENV === 'development';
 const app = RemoteConfig.appConfig;
